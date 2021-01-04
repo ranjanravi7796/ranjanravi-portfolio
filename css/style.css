@@ -1,0 +1,361 @@
+html, body {
+  background-color: white;
+  color:white;
+  /*font-family: 'Staatliches', cursive;*/
+  font-family: 'Calibri';
+  letter-spacing: 2px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #ed5565;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+.intro {
+  background: #212121;
+  background-size: cover;
+  height: 700px;
+}
+#overlay {
+  background: rgba(36, 35, 35, 0.116);
+  height: 1000px;
+}
+.profile {
+  position: relative;
+  top: 140px;
+  left: 50px;
+}
+
+.profile-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+.aboutme{
+  position: relative;
+  top: 170px;
+  left: 120px;
+  font-size: xx-large;
+}
+.aboutmeinfo {
+  position: relative;
+  left: 120px;
+  top: 170px;
+  letter-spacing: normal;
+}
+.contact {
+  position: relative;
+  left: 120px;
+  top: 200px;
+  font-size: xx-large;
+  letter-spacing: 1px;
+}
+.contactinfo {
+  position: relative;
+  left: 120px;
+  top: 200px;
+  font-size: large;
+}
+.experience {
+  background: white;
+  background-size: cover;
+  height: 800px;
+  color: #212121;
+}
+.education {
+  position: relative;
+  left: 100px;
+  top: 110px;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  width: fit-content;
+  border-bottom-color: rgb(4, 138, 4);
+  border-bottom-width: 3px;
+  font-size: 20px;
+}
+.education-info {
+  position: relative;
+  left: 1px;
+  top: 95px;
+  letter-spacing: normal;
+  font-size: 20px;
+}
+.education-brief {
+  position: relative;
+  left: 1px;
+  top: 105px;
+  letter-spacing: normal;
+  font-size: 17px;
+}
+.education-head {
+  position: relative;
+  left: 1px;
+  top: 100px;
+  letter-spacing: normal;
+  font-size: 30px;
+}
+.education-year {
+  position: relative;
+  left: -10px;
+  top: 130px;
+  letter-spacing: normal;
+  font-size: medium;
+}
+.line {
+  position: relative;
+  top:120px;
+  left: 110px;
+  border: 0.01px solid rgb(218, 216, 216);
+}
+.work {
+  position: relative;
+  left: 115px;
+  top: 140px;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  width: fit-content;
+  border-bottom-color: rgb(4, 138, 4);
+  border-bottom-width: 3px;
+  font-size: 20px;
+}
+.work-head {
+  position: relative;
+  left: 1px;
+  top: 135px;
+  letter-spacing: normal;
+  font-size: 30px;
+}
+.work-info {
+  position: relative;
+  left: 1px;
+  top: 130px;
+  letter-spacing: normal;
+  font-size: 20px;
+}
+.work-year {
+  position: relative;
+  left: -20px;
+  top: 165px;
+  letter-spacing: normal;
+  font-size: medium;
+}
+.work-brief {
+  position: relative;
+  left: 1px;
+  top: 135px;
+  letter-spacing: normal;
+  font-size: 17px;
+}
+.projects {
+  background: #212121;
+}
+@media (min-width:1400px)   {
+  .banner, .skills, .ex-timeline, .projects, .contact-section {
+    	background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
+
+.projects {
+  padding-top: 5px;
+  margin-top: -20px;
+  background: #212121;
+  height: fit-content;
+}
+
+.titles {
+  width: 1000px;
+  border-color: white;
+  border-width: 5px;
+  display: block;
+  margin:0 auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#title {
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+.well {
+  min-height: 300px;
+}
+.project-img {
+  height: 400px;
+  width: 500px;
+}
+.project-img2 {
+  height: 500px;
+  width: 600px;
+  padding: 40px;
+}
+.project-img3 {
+  height: 600px;
+  width: 800px;
+  padding: 30px;
+}
+.project-img4 {
+  height: 260px;
+  width: 465px;
+}
+#projectTitle {
+  text-align: center; 
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #212121;
+}
+.project-info{
+  text-align: left;
+  color: #212121;
+  letter-spacing: normal;
+}
+.githubbutton {
+  color: #212121;
+  transition-duration: 0.4s;
+  background-color: grey;
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  letter-spacing: normal;
+  text-align: center;
+  padding:2%;
+  color: white;
+  font-size: 14px;
+}
+
+.githubbutton:hover {
+  background-color: whitesmoke;
+  border: #ed5565;
+  color: #212121;
+}
+
+.techstack {
+  font-size: medium;
+  color: #212121;
+  text-align: center;
+  letter-spacing: normal; 
+}
+
+.certifications {
+  background: #212121;
+  padding-top: 100px;
+  height: fit-content;
+}
+
+.certification-name {
+  color: #212121;
+  letter-spacing: normal;
+  padding-left: 20px;
+}
+
+.panelTitle {
+  padding-left: 200px;
+  text-align: left;
+  width: 1000px;
+}
+
+.certification-head {
+  padding: none;
+  margin: none;
+  padding-bottom: 30px;
+}
+.certification-body {
+  text-align: left;
+  color: #212121;
+  letter-spacing: normal;
+}
+
+.certification-validity {
+  text-align: left;
+  color: #212121;
+  letter-spacing: normal;
+  padding-left: 530px;
+}
+
+.certification-logo {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.certification-issued {
+  position: relative;
+  text-align: left;
+  color: #212121;
+  letter-spacing: normal;
+}
+
+.cert1 {
+  padding-left: 170px;
+}
+.cert2 {
+  padding-left: 205px;
+}
+.cert3 {
+  padding-left: 162px;
+}
+.cert4 {
+  padding-left: 210px;
+}
+.cert5 {
+  padding-left: 494px;
+}
+.cert6 {
+  padding-left: 140px;
+}
+.certification-view {
+  letter-spacing: normal;  
+  text-align: right;
+}
+
+.certification-view:hover {
+  color: #212121;
+}
+
+.btn-resume {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  top:-120px;
+  left: 450px;
+}
+a {
+  text-decoration: none ;
+}
+
+a:hover {
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.btn-resume:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.socialDiv {
+  padding-left: 120px;
+  padding-top: 200px;
+}
+
+
+
