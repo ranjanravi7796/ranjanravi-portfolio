@@ -10,16 +10,19 @@ html, body {
   overflow-x: hidden; 
 }
 
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: #ed5565;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 970px) {
   .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
   }
 }
+
 
 .intro {
   background: #212121;
@@ -55,6 +58,9 @@ html, body {
   left: 120px;
   top: 170px;
   letter-spacing: normal;
+  font-size: medium;
+  right: auto;
+  text-align: justify;
 }
 .contact {
   position: relative;
@@ -99,6 +105,7 @@ html, body {
   top: 105px;
   letter-spacing: normal;
   font-size: 17px;
+  text-align: justify;
 }
 .education-head {
   position: relative;
@@ -147,7 +154,7 @@ html, body {
 }
 .work-year {
   position: relative;
-  left: -20px;
+  left: -10px;
   top: 165px;
   letter-spacing: normal;
   font-size: medium;
@@ -158,16 +165,10 @@ html, body {
   top: 135px;
   letter-spacing: normal;
   font-size: 17px;
+  text-align: justify;
 }
 .projects {
   background: #212121;
-}
-@media (min-width:1400px)   {
-  .banner, .skills, .ex-timeline, .projects, .contact-section {
-    	background-repeat: no-repeat; 
-      background-attachment: fixed;
-      background-position: center; 
-   }
 }
 
 .projects {
@@ -218,7 +219,7 @@ html, body {
   color: #212121;
 }
 .project-info{
-  text-align: left;
+  text-align: justify;
   color: #212121;
   letter-spacing: normal;
 }
@@ -335,7 +336,7 @@ html, body {
   font-size: 20px;
   position: relative;
   top:-120px;
-  left: 450px;
+  left: 500px;
 }
 a {
   text-decoration: none ;
@@ -357,5 +358,272 @@ a:hover {
   padding-top: 200px;
 }
 
+@media (min-width:1400px)   {
+  .intro, .experience, .projects, .certifications {
+    	background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
 
+@media (max-width: 800px) and (min-width: 300px) {
+  body{
+    height: 100%;
+  }
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 1vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  .view {
+    font-size: 5.5vw;
+  }
+  .profile{
+    position: relative;
+    left: 5vw;
 
+  }
+  .aboutme{
+    top: 170px;
+    width: 70%;
+    position: relative;
+    left: 15vw;
+  }
+  .aboutmeinfo{
+    top: 170px;
+    width: 70%;
+    position: relative;
+    left: 10vw;
+  }
+  .contact{
+    padding-top: 60px;
+    left: 10vw;
+  }
+  .contactinfo{
+    top: 110px;
+    position: relative;
+    padding-bottom: 10px;
+    left: 10vw;
+  }
+  .socialDiv{
+    top: -100px;
+    position: relative;
+    padding-bottom: 10px; 
+    left: -10vw;
+   }
+
+   .btn-resume{
+     position: relative;
+     text-align: center;
+     top: -65px;
+     left: 70px;
+   }
+
+   .education{
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 30vw;
+  }
+  .titles{
+      font-size: 5vw;
+      text-align: center;
+      position: relative;
+      top: -5vw;
+      left: 2vw;
+    }
+
+  .certification-head{
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: -5vw;
+    left: 2vw;
+  }
+
+  .panelTitle{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: -5vw;
+    left: -40vw;
+  }
+  .certification-issued{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    left: -100vw;
+  }
+  .certification-validity{
+    position: relative;
+    left: -100vw;
+  }
+  
+  .certification-name{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 0vw;
+    left: -5vw;
+  }
+  .certification-view{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 0vw;
+    left: -5vw;
+  }
+  .certification-logo{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    left: -5vw;
+  }
+  .certification-body{
+    position: relative;
+    left: 1px;
+    top: 10px;
+    letter-spacing: normal;
+    font-size: 14px;
+    text-align: justify;
+    width: 70%;
+  }
+  ul {
+    font-size: 4.5vw;
+    width: 80%;
+  }
+  #skills-label {
+    font-size: 13vw;
+  }
+  .intro {
+    background-size: 100% 100%;
+    height: 1100px;
+  }
+  .experience {
+    background-size: 100% 100%;
+    height: 200vw;
+  }
+  .border {
+    width: 25%;
+    border-width: 2px;
+  }
+  .resume,.contact {
+    top: 110px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .small-intro { 
+    padding-top: 40px;
+  }
+  .education-head{
+    font-size: 5vw;
+    text-align: center;
+    padding-bottom: 10px;
+    top: 10vw;
+  }
+  .education-info{
+    font-size: 3vw;
+    text-align: center;
+    top: 10vw;
+  }
+  .education-brief{
+    top: 10vw;
+    font-size: 3vw;
+  }
+  .education-year{
+    font-size: 3vw;
+    text-align: center;
+    top: 10vw;
+  }
+  .line{
+    top: 8vw;
+    left: 0px;
+  }
+  .work {
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    left: 40vw;
+  }
+  .work-head{
+    font-size: 5vw;
+    text-align: center;
+    padding-bottom: 10px;
+    top: 10vw;
+  }
+  .work-info{
+    font-size: 3vw;
+    text-align: center;
+    top: 10vw;
+  }
+  .work-brief{
+    top: 10vw;
+    left: 3vw;
+    bottom: 3vw;
+    font-size: 3vw;
+    text-align: justify;
+  }
+  .work-year{
+    font-size: 3vw;
+    text-align: center;
+    top: 10vw;
+  }
+  
+  #borderText {
+    font-size: 5.5vw;
+  }
+  #qualif {
+    font-size: 6.5vw;
+  }
+  #skills-label {
+    font-size: 10vw;
+    padding-bottom: 10px;
+  }
+  #footer {
+    font-size: 3vw;
+  }
+  .timeline {
+    left: 0;
+  }
+  .timeline-thumbnail {
+    font-size: 3.5vw;
+  }
+  .timeline:before {
+    width: 2px;
+  }
+  #workplace {
+    font-size: 8vw;
+  }
+  #jobPos {
+    font-size: 6vw;
+  }
+  #jobDesc {
+    font-size: 5vw;
+    width: 100%;
+  }
+  #liveDemo {
+    padding-left: 5%;
+    padding-right: 14%;
+    font-size: 5.5vw;
+  }
+  #sourceCode {
+    font-size: 5.5vw;
+  }
+  .view {
+    font-size: 5.5vw;
+  }
+}

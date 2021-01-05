@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- Bootstrap CSS file -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
    <!-- Custom CSS file -->
   <link rel="stylesheet" href="./css/style.css">
 
@@ -30,10 +30,10 @@
   </nav>
 
   <!-- Home section -->
-  <section class="intro" class="text-center" id="home">
-  <div id="overlay">
+<section class="intro" id="home">
+<div id="overlay">
 
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-md-4">
         <a class="profile">
@@ -59,8 +59,8 @@
       </div>
     </div>
   </div>
-  </div>
-  </section>
+</div>
+</section>
 
   <!-- End Home Section -->
 
@@ -80,6 +80,7 @@
         <div class="col-md-2">
           <p class="education-year"> August 2014 - April 2018 </p>
         </div>
+      </div>
         <div class="row">
           <div class="col-md-10">
             <hr class="line">
@@ -102,8 +103,7 @@
           <div class="col-md-2">
             <p class="work-year"> June 2018 - November 2020 </p>
           </div>
-        
-      </div>
+        </div>
     </div>
     </div>
     </section>
@@ -169,7 +169,7 @@
               <h3 id="projectTitle"><strong> Queueing emails with Flask and Amazon ElasticCache for Redis </strong></h3>
               <p class="techstack"> Flask <span>&#8226;</span>  Redis <span>&#8226;</span> REST API </p>
               <p class="project-info"> This is my first time hands-on experience to amazon redis queue cluster and I wanted to develop an flask rest-api which would receive list of email-ids and messages as an JSON formatted input passed into postman. Once the jobs are registered and executed i.e. mail sent, the job id's and its registered time will be returned as a response in order to get the email confirmation. </p>
-              <button type="button" class="githubbutton">Github Repo</button>
+              <a href="https://github.com/ranjanravi7796/sendemail_queue" class="btn githubbutton" target="_blank"><strong>Github Repo</strong></a>
             </div>
           </div>
           <!-- Project 4 ends-->
@@ -184,14 +184,16 @@
       <section class="certifications" class="text-center" id="certifications">
       <div class="overlay">
       <h3 class="text-center certification-head"><strong> Some of my certifications are. </strong></h3>
-      <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
         <!-- Certificate 1 -->
         <div class="panel-group panelTitle">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title" data-toggle="collapse" href="#collapse1">
                 <a><img src="./img/python3.png" class="certification-logo"></a>
-                <span class="certification-name"><strong>Python for Data Science and Machine Learning Bootcamp</strong></span><span class="certification-issued cert1"> issued by <strong>Udemy</strong></span>
+                <span class="certification-name"><strong>Python for Data Science and Machine Learning Bootcamp</strong></span><span class="certification-issued cert1"> issued by <strong> Udemy </strong></span>
               </h4>
             </div>
             <div id="collapse1" class="panel-collapse collapse">
@@ -202,13 +204,15 @@
             </div>
           </div>
         </div>
+          </div>
+          </div>
         <!-- Certificate 2 -->
         <div class="panel-group panelTitle">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title" data-toggle="collapse" href="#collapse2">
                 <a><img src="./img/tableau.png" class="certification-logo"></a>
-                <span class="certification-name"><strong>Data Visualization and Communication with Tableau</strong></span><span class="certification-issued cert2"> issued by <strong>Coursera</strong></span>
+                <span class="certification-name"><strong>Data Visualization and Communication with Tableau</strong></span><span class="certification-issued cert2"> issued by <strong> Coursera </strong></span>
               </h4>
             </div>
             <div id="collapse2" class="panel-collapse collapse">
@@ -226,7 +230,7 @@
             <div class="panel-heading">
               <h4 class="panel-title" data-toggle="collapse" href="#collapse3">
                 <a><img src="./img/python3.png" class="certification-logo"></a>
-                <span class="certification-name"><strong>The Python Mega Course: Build 10 Real World Applications</strong></span><span class="certification-issued cert3"> issued by <strong>Udemy</strong></span>
+                <span class="certification-name"><strong>The Python Mega Course: Build 10 Real World Applications</strong></span><span class="certification-issued cert3"> issued by <strong> Udemy </strong></span>
               </h4>
             </div>
             <div id="collapse3" class="panel-collapse collapse">
@@ -296,7 +300,7 @@
       </div>
       </div>
 </section>
-
+</body>
       <!-- Certification section ends -->
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
